@@ -384,7 +384,7 @@
 }
 
 
-#main__footer{
+#upper__footer{
     position: relative;
     height: 22vh;
     background-color: var(--nav);
@@ -392,15 +392,15 @@
     display: flex;
     justify-content: space-between;
 }
-#main__footer > table{
+#upper__footer > table{
     width: 60%;
 }
-#main__footer > table > tbody > tr > th {
+#upper__footer > table > tbody > tr > th {
     text-align: left;
     padding: 8px 0px;
     font-size: 14px;
 }
-#main__footer > table > tbody > tr > td {
+#upper__footer > table > tbody > tr > td {
     font-weight: lighter;
     font-size: small;
     padding: 2px 0px;
@@ -438,4 +438,21 @@
 }
 .watermark:hover a{
     color: var(--text);   
+}
+
+
+#bottom__footer{
+    height: 7vh;
+    width: 100%;
+    background-color: var(--primary);
+    padding: 0px 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bottom__footer > p{
+    font-size: small;
+    font-weight: lighter;
+    color: var(--white);
 }
