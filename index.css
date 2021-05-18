@@ -233,7 +233,7 @@
 
 #main__header{
     height: 40vh;
-    background-size: cover;
+    background-size: 100% auto ;
     background-position-x: center;
 }
 
